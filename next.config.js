@@ -7,6 +7,9 @@ const nextConfig = {
   ...withNextra(),
   reactStrictMode: true,
   swcMinify: true,
+  images: {
+    unoptimized: true
+  }
 }
 
-module.exports = withNextra()
+module.exports = nextConfig
