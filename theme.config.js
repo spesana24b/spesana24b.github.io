@@ -23,6 +23,6 @@ export default {
     labels: 'feedback'
   },
   footer: {
-    text: <div><center>Host by <a href="https://pages.github.com/" target="_blank">github pages</a> • © Spesana 24B</center></dic>,
+    text: <div><center>Host by <a href="https://pages.github.com/" target="_blank">github pages</a> • © Spesana 24B</center></div>,
   },
 }
