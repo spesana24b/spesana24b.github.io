@@ -7,7 +7,7 @@ export default {
   docsRepositoryBase: 'https://github.com/spesana24b/spesana24b.github.io/blob/main/',
   useNextSeoProps() {
     return {
-    titleTemplate: '%s - Spesana 24'B Docs'
+    titleTemplate: "%s - Spesana 24'B Docs"
     }
   },
   navigation: {
