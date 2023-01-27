@@ -6,67 +6,28 @@ Apakah kamu bertanya apa itu API pada situs?
 
 Ya, API (Application programming interface) dimana sebuah enpoint yang menyediakan sebuah atau suatu fitur yang digunakan sebagai alat bertukar data atau informasi pada sebuah sistem web maupun aplikasi.
 
-API pada situs sering kita temukan, namun sebagai developer biasanya mengumpetkan agar tidak dipakai dengan sembarangan.
+## List API Kelas
 
-Namun terkadang ada developer yang membuat api untuk memudahkan para developer untuk terhubung kepada aplikasi tersebut.
+- [List Posting](/docs/kelas/catalogs)
+  - [List Posting (Blog)](/docs/kelas/catalogs#blog)
+  - [List Posting (Karya)](/docs/kelas/catalogs#karya)
+  - [List Posting (Gallery)](/docs/kelas/catalogs#gallery)
+    - [Gallery Video](/docs/kelas/catalogs#gallery-video)
+    - [Gallery Foto](/docs/kelas/catalogs#gallery-foto)
+- [List Perpustakaan](/docs/kelas/lib)
+  - [Kurikulum Lama](/docs/kelas/lib#myedisi)
+- [Akun](/docs/kelas/akun)
+  - Pengaturan
+    - [Ganti Foto Profile](/docs/kelas/akun#ganti-foto-profile)
+    - [Ganti Nama](/docs/kelas/akun#ganti-nama)
+  - Gallery
+    - [Posting](/docs/kelas/akun#posting-gallery)
 
-## API pada situs kelas
+## List API Sekolah
 
-API ini dibuat untuk mempermudah digunakan untuk para pengembang, jika kamu menggunakan nodejs, kamu dapat menggunakan modulenya [disini !](/docs/nodejs-module)
-
-## Endpoint /api/employee
-
-<ListParam
-  title="Endpoint"
-  data={[
-    {
-      name: "/api/employee",
-      desc: "Mendapatkan data guru dari sekolah kami"
-    }
-  ]}
-/>
-
-<ListParam
-  title="Header"
-  data={[
-    {
-      name: "authorization",
-      require: true,
-      desc: "Digunakan untuk mengakses sistem pada akun anda"
-    }
-  ]}
-/>
-
-<ListParam
-  title="Kode Status Respon"
-  data={[
-    {
-      name: "200",
-      desc: "Berhasil / Success"
-    },
-    {
-      name: "401",
-      desc: "Tidak ada kode authorization untuk mengakses"
-    },
-    {
-      name: "401/2",
-      desc: "Tidak ada akses untuk anda"
-    }
-  ]}
-/>
-
-> Hasil jika berhasil
-
-```js
-{
-  status: 200,
-  data: [
-    {
-      nama: "", // String
-      foto_profile: "", // String
-      ulang_tahun: "", // String (date format)
-    },
-    ... More
-  ]
-}
-```
+- [Beranda](/docs/sekolah/beranda)
+  - [Artikel](/docs/sekolah/read)
+  - [Isi Artikel](/docs/sekolah/read-page)
+- [List Gallery](/docs/sekolah/ls-gallery)
+  - [Gallery Video](/docs/sekolah/glr-video)
+  - [Gallery Foto](/docs/sekolah/glr-foto)

@@ -1,6 +1,10 @@
 {
+  "index": {
+    "title": "Beranda 📜",
+    "type": "page"
+  },
   "help": {
-    "title": "Bantuan 🏷",
+    "title": "Bantuan 👏",
     "type": "page"
   },
   "docs": {
