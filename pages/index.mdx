@@ -1,0 +1,27 @@
+import styles from "../styles/index.module.css"
+import Link from "next/link"
+
+### Selamat datang !
+
+Halaman pendukung
+
+<div className={styles.view_card}>
+  <Link href="/docs" className={styles.card_ft}>
+    <div className={styles.card_ft_text}>
+      <b>📑 Dokumentasi</b>
+      <p>Mempelajari Rest API dan Scrapper</p>
+    </div>
+  </Link>
+  <Link href="/help" className={styles.card_ft}>
+    <div>
+      <b>🤔 Bantuan</b>
+      <p>Bantuan untuk menggunakan pada website</p>
+    </div>
+  </Link>
+  <Link href="/visi-misi" className={styles.card_ft}>
+    <div>
+      <b>👏 Visi Misi</b>
+      <p>Visi Misi, dan tujuan sekolah siswa atau osis</p>
+    </div>
+  </Link>
+</div>
