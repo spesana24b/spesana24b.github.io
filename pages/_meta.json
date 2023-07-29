@@ -6,9 +6,5 @@
   "help": {
     "title": "Bantuan 👏",
     "type": "page"
-  },
-  "docs": {
-    "title": "Dokumentasi 📚",
-    "type": "page"
   }
 }
