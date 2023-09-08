@@ -1,10 +1,12 @@
 {
-  "index": {
-    "title": "Beranda 📜",
-    "type": "page"
-  },
-  "help": {
-    "title": "Bantuan 👏",
-    "type": "page"
+  "pagesmenu": {
+    "title": "Menu Halaman",
+    "type": "menu",
+    "items": {
+      "help": {
+        "title": "Bantuan 👏",
+        "href": "/help"
+      }
+    }
   }
 }
